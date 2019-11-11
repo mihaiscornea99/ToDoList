@@ -1,0 +1,241 @@
+.logout_button_container {
+    text-align: right;
+    float: right;
+}
+
+div.site-title{
+    font-size: 200%;
+}
+
+body {
+    font-size: 120%;
+    background: #F8F8FF;
+    text-align: center;
+}
+
+form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+a.logout_button {
+    text-decoration: none;
+    font: bold 11px Arial;
+    background-color: #8b0000;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+a.back_to_create_button {
+    text-decoration: none;
+    font: bold 11px Arial;
+    background-color: #8b0000;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.btn {
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    color: white;
+    background: #8b0000;
+    border: none;
+    border-radius: 5px;
+}
+
+table.tasks-table {
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    white-space:nowrap;
+    text-align:left;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    background: white;
+}
+
+
+.expired{
+    text-align:center;
+    color: #330000;
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    border: 1px solid #B0C4DE;
+    background: #ff6666;
+    border-radius: 0px 0px 10px 10px;
+}
+.ongoing{
+    text-align:center;
+    color: green;
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    border: 1px solid #B0C4DE;
+    background: #caff99;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.taskrow{
+    font-size: 100%;
+    text-align:left;
+    color: black;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.tasktableheader{
+    font-size: 200%;
+    text-align:left;
+    color: white;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: #8b0000;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.tasktabletitle{
+    font-size: 200%;
+    text-align:left;
+    color: black;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.failure{
+    width: 60%;
+    align-self: center;
+    text-align:center;
+    color: #330000;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #B0C4DE;
+    background: #ff6666;
+    border-radius: 0px 0px 10px 10px;
+}
+.success{
+    width: 60%;
+    align-self: center;
+    text-align:center;
+    color: green;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #B0C4DE;
+    background: #caff99;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.taskname{
+    font-size: 120%;
+}
+
+.delete-button-cell{
+    text-align:center;
+    color: black;
+    margin: 0px auto;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+a.delete_button {
+     font-size: 150%;
+     text-decoration: none;
+     font: bold 11px Arial;
+     background-color: #8b0000;
+     color: white;
+     border-radius: 5px;
+     padding: 10px 20px 10px 20px;
+     border-top: 1px solid #CCCCCC;
+     border-right: 1px solid #333333;
+     border-bottom: 1px solid #333333;
+     border-left: 1px solid #CCCCCC;
+ }
+
+a.delete_button_no {
+    font-size: 150%;
+    text-decoration: none;
+    font: bold 11px Arial;
+    background-color: #8b0000;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 22px 10px 22px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.edit-button-cell{
+    text-align:center;
+    color: black;
+    margin: 0px auto;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+a.edit_button {
+    font-size: 150%;
+    text-decoration: none;
+    font: bold 11px Arial;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.delete-account-table{
+    text-align: center;
+    width: 15%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+}
+
